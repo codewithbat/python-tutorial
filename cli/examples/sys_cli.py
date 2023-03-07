@@ -4,8 +4,7 @@ import collections
 
 USAGE = f"""
 Usage: python {sys.argv[0]} [command args]
-    -i      Show `Hello ...!`
-    -d      Show the current datetime
+    -i      Display `Hello ...!`
 """
 
 
@@ -25,8 +24,6 @@ def main():
         elif argument == "-i":
             name = argument_from_queue.popleft()
             print(f"Hello {name}!")
-        elif argument == "-d":
-            print(datetime.now().strftime("%m/%d/%Y, %H:%M:%S"))
 
 
 if __name__ == "__main__":
