@@ -1,4 +1,3 @@
-from datetime import datetime
 import sys
 import collections
 
@@ -15,14 +14,14 @@ def main():
         print(USAGE)
         exit(0)
 
-    argument_from_queue = collections.deque(args)
-    while argument_from_queue:
-        argument = argument_from_queue.popleft()
-        if argument in ["-h", "--help"]:
+    arguments = collections.deque(args)
+    while arguments:
+        arguments = arguments.popleft()
+        if arguments in ["-h", "--help"]:
             print(USAGE)
             sys.exit(0)
-        elif argument == "-i":
-            name = argument_from_queue.popleft()
+        elif arguments == "-i":
+            name = arguments.popleft()
             print(f"Hello {name}!")
 
 
