@@ -1,3 +1,3 @@
 ## Python Tutorial
 
-Blog Link: [https://codewithbat.com/posts/](https://codewithbat.com/posts/)
+Blog: [https://codewithbat.com/posts/](https://codewithbat.com/posts/)

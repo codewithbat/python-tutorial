@@ -4,8 +4,6 @@
 
 Examples on how to create command line interfaces in Python
 
-## Detail
-
-Blog Link: [https://codewithbat.com/post/python-cli/](https://codewithbat.com/post/python-cli/)
+Post Link: [https://codewithbat.com/post/python-cli/](https://codewithbat.com/post/python-cli/)
 
 [screenshot]: ../images/cli.png
